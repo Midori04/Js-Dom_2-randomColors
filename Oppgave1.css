@@ -1,0 +1,16 @@
+#text-1 {
+    justify-content: center;
+}
+
+#text-2 {
+justify-content: center;
+}
+
+div {
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
