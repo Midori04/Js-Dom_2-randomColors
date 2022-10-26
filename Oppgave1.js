@@ -13,7 +13,9 @@
 function myFunction2() {
     const etNummer = Math.floor(Math.random() * colorList.length)
     
-    document.body.style.backgroundColor = colorList[etNummer];
+    document.getElementById("colorbud").style.backgroundColor = colorList[etNummer];
+
+    document.querySelector("#Text-2").innerHTML = colorList[etNummer];
     
 }
 
